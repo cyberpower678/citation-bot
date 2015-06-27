@@ -33,8 +33,8 @@ define("to_en_dash", "--?|\&mdash;|\xe2\x80\x94|\?\?\?"); // regexp for replacin
 define("blank_ref", "<ref name=\"%s\" />");
 define("reflist_regexp", "~{{\s*[Rr]eflist\s*(?:\|[^}]+?)+(<ref[\s\S]+)~u");
 define("en_dash", "\xe2\x80\x93"); // regexp for replacing to ndashes using mb_ereg_replace
-define("wikiroot", "http://en.wikipedia.org/w/index.php?");
-define("api", "http://en.wikipedia.org/w/api.php");
+define("wikiroot", "https://en.wikipedia.org/w/index.php?");
+define("api", "https://en.wikipedia.org/w/api.php");
 define("bibcode_regexp", "~^(?:" . str_replace(".", "\.", implode("|", Array(
                     "http://(?:\w+.)?adsabs.harvard.edu",
                     "http://ads.ari.uni-heidelberg.de",
