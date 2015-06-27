@@ -35,8 +35,8 @@ if ($page->get_text_from('User:DOI_bot/Zandbox') && $page->expand_text()) {
   print $page->text; die("\n\nbyebye\n");
   while (!$page->write() && $attempts < 2) ++$attempts;
   if ($attempts < 3 ) echo $html_output ?
-       " <small><a href=http://en.wikipedia.org/w/index.php?title=" . urlencode($page) . "&action=history>history</a> / "
-       . "<a href=http://en.wikipedia.org/w/index.php?title=" . urlencode($page) . "&diff=prev&oldid="
+       " <small><a href=https://en.wikipedia.org/w/index.php?title=" . urlencode($page) . "&action=history>history</a> / "
+       . "<a href=https://en.wikipedia.org/w/index.php?title=" . urlencode($page) . "&diff=prev&oldid="
        . getLastRev($page) . ">last edit</a></small></i>\n\n<br>"
        : ".";
   else echo "\n # Failed. \n" . $page->text;

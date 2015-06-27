@@ -1,4 +1,4 @@
-#!/usr/bin/php
+w#!/usr/bin/php
 <?php
 // $Id$
 $ON = true;

@@ -164,7 +164,7 @@ function articleID($page, $namespace = 0) {
   return $results['page_id'];
 }
 
-function getRawWikiText($page, $wait = false, $verbose = false, $use_daniel = true) {
+function getRawWikiText($page, $wait = false, $verbose = false, $use_daniel = false) {
   $encode_page = urlencode($page);
   echo $verbose ? "\n scraping... " : "";
     // Get the text by scraping edit page
