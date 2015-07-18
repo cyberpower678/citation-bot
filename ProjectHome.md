@@ -1,0 +1,1 @@
+[Citation bot](http://toolserver.org/verisimilus/Bot/citation-bot) is a tool to expand and format references at Wikipedia, the free encyclopaedia.  It retrieves citation data from a variety of sources including CrossRef (DOI), PMID, PMC and JSTOR, and returns the full metadata of a citation.
